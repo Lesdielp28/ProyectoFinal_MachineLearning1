@@ -1,3 +1,24 @@
+import faulthandler
+
+faulthandler.enable()
+
+print("PASO 1: iniciando", flush=True)
+
+import numpy
+print("PASO 2: numpy OK", flush=True)
+
+import pandas
+print("PASO 3: pandas OK", flush=True)
+
+import tensorflow
+print("PASO 4: tensorflow OK", flush=True)
+
+import shap
+print("PASO 5: shap OK", flush=True)
+
+import streamlit
+print("PASO 6: streamlit OK", flush=True)
+
 import os
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
