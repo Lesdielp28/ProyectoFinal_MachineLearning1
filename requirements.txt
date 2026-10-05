@@ -1,5 +1,5 @@
 streamlit
-tensorflow
+tensorflow-cpu
 scikit-learn==1.9.1
 numpy
 pandas
